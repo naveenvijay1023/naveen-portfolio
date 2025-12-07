@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Naveen Vijayakumar | Analytics & AI Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Naveen Vijayakumar – Analytics, Applied AI, ESG, and Sports Data projects." />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS (scroll-triggered animations) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="nav-left">
+      <span class="logo">Naveen's Portfolio</span>
+    </div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+      🌙
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-left" data-aos="fade-right">
+      <p class="hero-kicker">Analytics • Applied Machine Intelligence • ESG & Sports Data</p>
+      <h1 class="hero-title">
+        Hi, I’m <span>Naveen Vijayakumar</span>.
+      </h1>
+      <p class="hero-subtitle">
+        I build <strong>data-driven products</strong> and <strong>machine learning solutions</strong> for
+        venture capital, ESG investing, marketing, and sports performance.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#resume" class="btn ghost">Download Resume</a>
+      </div>
+
+      <div class="hero-tags">
+        <span>Predictive Modeling</span>
+        <span>Big Data (Spark)</span>
+        <span>ESG AI</span>
+        <span>MLB & IPL Analytics</span>
+      </div>
+    </div>
+
+    <div class="hero-right" data-aos="fade-left">
+      <div class="hero-orbit">
+        <div class="hero-orbit-core">
+          <span>Analytics</span>
+        </div>
+        <div class="hero-orbit-ring hero-orbit-ring-1"></div>
+        <div class="hero-orbit-ring hero-orbit-ring-2"></div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-number">923+</span>
+          <span class="stat-label">Startups modeled</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">260k+</span>
+          <span class="stat-label">IPL deliveries analyzed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">0.98</span>
+          <span class="stat-label">AUC – startup success model</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I’m a Master’s student in <strong>Analytics (Applied Machine Intelligence)</strong> at Northeastern University,
+      with experience spanning <strong>venture capital scoring models</strong>, <strong>ESG frameworks for AI startups</strong>,
+      <strong>sports analytics</strong>, and <strong>marketing analytics</strong>. I enjoy turning complex datasets
+      into clear recommendations that decision-makers can actually use.
+    </p>
+    <p>
+      My background in cloud operations, customer-facing roles, and analytics gives me a unique blend of
+      <strong>technical depth</strong> and <strongbusiness intuition</strong>—whether I’m building dashboards, training
+      ML models, or designing frameworks for responsible AI investing.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="chips">
+      <span class="chip">Python</span>
+      <span class="chip">R</span>
+      <span class="chip">SQL</span>
+      <span class="chip">Machine Learning</span>
+      <span class="chip">Random Forest • Logistic Regression</span>
+      <span class="chip">Spark &amp; PySpark</span>
+      <span class="chip">Tableau</span>
+      <span class="chip">Power BI</span>
+      <span class="chip">Data Warehousing &amp; ETL</span>
+      <span class="chip">Probability &amp; Statistics</span>
+      <span class="chip">ESG Framework Design</span>
+      <span class="chip">Root Cause Analysis</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE TIMELINE -->
+  <section id="experience" data-aos="fade-up">
+    <h2>Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Cloud Analyst – FOUNDEVER (Hyland OnBase)</h3>
+          <span class="timeline-meta">Aug 2023 – Aug 2024 · India</span>
+          <p>
+            Supported and optimized OnBase cloud workflows, automated recurring checks,
+            and improved reliability for data-driven operations.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Subject Matter Expert – Technical Support (Roku), Concentrix</h3>
+          <span class="timeline-meta">Sep 2021 – Aug 2023 · India</span>
+          <p>
+            Led advanced troubleshooting and trained analysts using structured,
+            data-backed root cause analysis for streaming devices.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Customer-Facing Ops – Emirates, GM Associates, OYO</h3>
+          <span class="timeline-meta">2018 – 2021 · India</span>
+          <p>
+            Managed operations, banking data, and guest experience; used transaction
+            and feedback data to identify process improvements.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS WITH FILTER -->
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ml">ML &amp; Predictive</button>
+      <button class="filter-btn" data-filter="bigdata">Big Data</button>
+      <button class="filter-btn" data-filter="esg">ESG / VC</button>
+      <button class="filter-btn" data-filter="viz">Dashboards &amp; Viz</button>
+    </div>
+
+    <div class="project-grid">
+
+      <!-- ESG / VC -->
+      <article class="project-card" data-category="esg">
+        <h3>AI-ESG Framework for AI Startups</h3>
+        <p class="project-tag">ESG • Responsible AI • VC Due Diligence</p>
+        <p>
+          Built a comprehensive ESG evaluation framework for an AI-focused VC firm:
+          scoring methodology, risk matrices, and due-diligence tools aligned with
+          EU AI Act, NIST, and SASB standards.
+        </p>
+        <!-- OPTIONAL IMAGE -->
+        <!-- <img src="images/esg_dashboard.png" class="project-img" alt="ESG framework dashboard" /> -->
+        <p class="project-tech">Tools: Python, Excel, Tableau/Power BI, ESG frameworks</p>
+      </article>
+
+      <!-- ML & Predictive -->
+      <article class="project-card" data-category="ml">
+        <h3>Founder Success Prediction (Y Combinator)</h3>
+        <p class="project-tag">ML • VC • Founder Analytics</p>
+        <p>
+          Collected 120 YC founder profiles using an automated GPT-4o Vision pipeline,
+          engineered 17 features, and trained a Random Forest model (AUC ≈ 0.756)
+          to predict founder success for pre-seed deal screening.
+        </p>
+        <!-- <img src="images/founder_model.png" class="project-img" alt="Founder success model chart" /> -->
+        <p class="project-tech">Tools: Python, OpenAI API, Random Forest, EDA</p>
+      </article>
+
+      <article class="project-card" data-category="ml">
+        <h3>Startup Success Prediction (923 Companies)</h3>
+        <p class="project-tag">ML • Data Mining • Venture Capital</p>
+        <p>
+          Modeled acquisition vs closure using Random Forest with threshold tuning
+          for recall ≥ 94% (AUC ≈ 0.98). Engineered features like funding efficiency,
+          tech-hub indicator, and company maturity.
+        </p>
+        <!-- <img src="images/startup_model.png" class="project-img" alt="Startup success ROC curve" /> -->
+        <p class="project-tech">Tools: R, Random Forest, Threshold Optimization</p>
+      </article>
+
+      <!-- Big Data / Sports -->
+      <article class="project-card" data-category="bigdata">
+        <h3>IPL Big-Data Analytics (260k+ Deliveries)</h3>
+        <p class="project-tag">Big Data • Sports Analytics • PySpark</p>
+        <p>
+          Processed over 260,000 ball-by-ball records from IPL (2008–2024), used
+          PySpark for preprocessing and clustering to identify team tiers, toss
+          strategy impact, and venue-specific patterns.
+        </p>
+        <!-- <img src="images/ipl_dashboard.png" class="project-img" alt="IPL analytics dashboard" /> -->
+        <p class="project-tech">Tools: PySpark, Python, Tableau, Clustering</p>
+      </article>
+
+      <article class="project-card" data-category="ml bigdata">
+        <h3>MLB Team Performance & Playoff Prediction</h3>
+        <p class="project-tag">Sports Analytics • Regression • Classification</p>
+        <p>
+          Used Ridge/LASSO regression and logistic regression to quantify the impact
+          of OBP and RS on wins and predict playoff qualification with high accuracy.
+        </p>
+        <!-- <img src="images/mlb_dashboard.png" class="project-img" alt="MLB analytics charts" /> -->
+        <p class="project-tech">Tools: R, Regression, Logistic Models</p>
+      </article>
+
+      <!-- Visualization -->
+      <article class="project-card" data-category="viz">
+        <h3>Public Health & Wage Gap Dashboards</h3>
+        <p class="project-tag">Data Visualization • Tableau • R Shiny</p>
+        <p>
+          Built a Tableau dashboard for U.S. obesity vs physical activity and an
+          R Shiny dashboard for wage gap analysis across gender and race, using
+          interactive filtering and clear storytelling.
+        </p>
+        <!-- <img src="images/viz_dashboard.png" class="project-img" alt="Visualization dashboards" /> -->
+        <p class="project-tech">Tools: Tableau, R Shiny, Data Storytelling</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>You can download my full resume as a PDF here:</p>
+    <a href="files/Naveen_Resume.pdf" class="btn primary" download>Download Resume</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Open to roles in Data Analytics, Applied AI, and Data Science.</p>
+    <div class="contact-grid">
+      <div>
+        <h3>Direct</h3>
+        <p>Email: <a href="mailto:vijayakumar.na@northeastern.edu">vijayakumar.na@northeastern.edu</a></p>
+                <p>Email: <a href="mailto:naveenvijayakumar1023@gmail.com">naveenvijayakumar1023@gmail.com</a></p>
+        <p>Phone: <a href="tel:+17815074771">+1 (781) 507-4771</a></p>
+      </div>
+      <div>
+        <h3>Online</h3>
+        <p>LinkedIn:
+          <a href="https://www.linkedin.com/in/naveen-vijayakumar-sfo23" target="_blank">
+            linkedin.com/in/naveen-vijayakumar-sfo23
+          </a>
+        </p>
+        <p>GitHub:
+          <a href="https://github.com/naveenvijay1023" target="_blank">
+            github.com/naveenvijay1023
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Naveen Vijayakumar. All rights reserved.
+  </footer>
+
+  <!-- JS: AOS + theme toggle + project filter -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Scroll animations
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Light/Dark toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.body;
+
+    function setTheme(light) {
+      if (light) {
+        body.classList.add('light-theme');
+        themeToggle.textContent = '☀️';
+        localStorage.setItem('theme', 'light');
+      } else {
+        body.classList.remove('light-theme');
+        themeToggle.textContent = '🌙';
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+
+    // Load theme from storage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') setTheme(true);
+
+    themeToggle.addEventListener('click', () => {
+      setTheme(!body.classList.contains('light-theme'));
+    });
+
+    // Project filter
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        projectCards.forEach(card => {
+          const categories = card.getAttribute('data-category').split(' ');
+          if (filter === 'all' || categories.includes(filter)) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
